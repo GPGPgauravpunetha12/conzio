@@ -1,38 +1,55 @@
-.App {
-  text-align: center;
-}
+.App{
+  height:100%;
+  width: 100%;
+border-radius: 5px solid black;
+  display: flex;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+  justify-content:space-evenly;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.bucket-list {
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
+  padding: 16px;
+}
+
+.bucket-list h2 {
+  margin-bottom: 16px;
+}
+
+.bucket-name {
+  padding: 8px;
+  margin-right: 8px;
+  background-color: #f0f0f0;
+  border-radius: 4px;
+}
+
+/* modaljs css */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
   }
-  to {
-    transform: rotate(360deg);
+  
+  .modal iframe {
+  width: 80%;
+  height: 80%;
   }
-}
+  
+  .modal .close-button {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 30px;
+  color: #fff;
+  cursor: pointer;
+  }
+  
+  

@@ -1,0 +1,15 @@
+{
+    "routes": {
+      "/buckets": {
+        "POST": {
+          "handler": "./create-bucket-middleware.js"
+        }
+      },
+      "/cards": {
+        "POST": {
+          "handler": "./create-card-middleware.js"
+        }
+      }
+    }
+  }
+  

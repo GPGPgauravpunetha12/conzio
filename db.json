@@ -1,0 +1,94 @@
+{
+  "buckets": [
+    {
+      "id": 1,
+      "name": "Entertainment Videos"
+    },
+    {
+      "id": 2,
+      "name": "Education Videos"
+    },
+    {
+      "name": "trendning Videos",
+      "id": 3
+    },
+    {
+      "name": "oldVideos",
+      "id": 4
+    },
+    {
+      "name": "newVideos",
+      "id": 5
+    }
+  ],
+  "cards": [
+    {
+      "name": "Baburao Ganpatrao Apte Hit",
+      "link": "https://youtu.be/5FXFnyRnl48",
+      "bucketId": 1,
+      "id": 3
+    },
+    {
+      "name": "ONE PUNCH MAN LIVE ACTION - Saitama vs Genos",
+      "link": "https://youtu.be/xMFUNpBmMt4",
+      "bucketId": null,
+      "id": 4
+    },
+    {
+      "name": "Pathaan",
+      "link": "https://youtu.be/vqu4z34wENw",
+      "bucketId": 5,
+      "id": 5
+    },
+    {
+      "name": "Tere Bin Ep 05",
+      "link": "https://youtu.be/vbtPhGeShQQ",
+      "bucketId": 3,
+      "id": 6
+    },
+    {
+      "name": "Farzi",
+      "link": "https://youtu.be/tG8sddrOqbg",
+      "bucketId": 5,
+      "id": 8
+    },
+    {
+      "name": "Marvel studio ant man",
+      "link": "https://youtu.be/nYzlbXWHGJU",
+      "bucketId": 3,
+      "id": 9
+    },
+    {
+      "name": "DSA Gate",
+      "link": "https://youtu.be/QH8w4aq3zRQ",
+      "bucketId": 2,
+      "id": 10
+    },
+    {
+      "name": "Aye ho meri zindagi mai",
+      "link": "https://youtu.be/ixCnsZswdpU",
+      "bucketId": 4,
+      "id": 11
+    },
+    {
+      "name": "funny-video-1",
+      "link": "https://twitter.com/_BestVideos/status/1613307628347707394?s=20&t=OHHuYhisiDziTgw3DORNxQ",
+      "bucketId": 1,
+      "id": 12
+    }
+  ],
+  "history": [
+    {
+      "id": 1,
+      "cardName": "Video 1",
+      "link": "https://example.com/video1.mp4",
+      "time": "2022-01-01T00:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "cardName": "Video 2",
+      "link": "https://example.com/video2.mp4",
+      "time": "2022-01-02T00:00:00.000Z"
+    }
+  ]
+}
