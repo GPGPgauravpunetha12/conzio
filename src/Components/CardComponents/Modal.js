@@ -16,7 +16,9 @@ function Modal({ card }) {
       </div>
       {modalOpen && (
         <div className="modal">
-          <iframe src={videoUrl} />
+          <iframe title={`Video Player for ${card.name}`} src={videoUrl} frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
+
           <button onClick={() => setModalOpen(false)}>Close</button>
         </div>
       )}
